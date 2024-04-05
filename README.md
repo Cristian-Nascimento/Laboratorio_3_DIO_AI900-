@@ -14,24 +14,15 @@
 ## Passo 2
 - Com as funcionalidades adicionadas, basta clicar em "continue to create your resource"
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/5bb2b5e1-e5eb-4bc1-9115-dc638ee4966a)
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/2038b430-4fa4-4c58-9b0d-4e58ff7411f6)
-
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto1.png)
 
 ## Passo 3
 - Preencher as informações do recurso conforme imagem abaixo.
 - Escolha um resource group, um nome (que deve ser único), e o Pricing Tier deve ser Free F0.
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/b58bf3bf-d582-4cdc-a328-ff8cf2153c76)
-
 - Não esquecer de marcar a caixa com a observação de Responsabilidade AI.
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/838936e6-eb49-46d1-8e5e-d1ae982dd573)
-
 - E então clique em Review + create para a validação das informações
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/7d7c96dc-5421-430b-af34-560663ebb187)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto2.png)
 
 ## Passo 4
 - Depois da validação anterior, sua tela deve se parecer com esta.
@@ -44,104 +35,56 @@
 
 ## Passo 5
 - Esta é a tela de finalização da criação do recurso.
-- Clique em "Go to resource group"
+- Clique em "Ir para o grupo de recursos"
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/c1d90271-0365-4ad7-88a9-6f689dfc2c43)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto4.png)
 
-- Esta é a tela que deve abrir
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/95c2901b-1f4b-47b2-8a0a-091a407dab54)
 
 ## Passo 6
 - Abra a página do Language Studio (https://language.cognitive.azure.com/)[https://language.cognitive.azure.com/] com seu usuário logado.
 - Automaticamente é aberta uma modal com as informações a preencher conforme imagem abaixo. Informe a Azure Subscription, o Resource Type e o resource group que você criou, e clique em "Done".
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/2a83e87a-6915-4e15-8d70-e22be36f8107)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto5.png)
 
 ## Passo 7
 - Ainda no Language Studio, selecione a aba "Classify Text", e o card "Analyse Sentiment and mine opinions"
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/4538cce7-c0c7-4d0e-b218-cf20fa58637a)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto6.png)
 
 ## Passo 8
 - Selecione o idioma do texto a ser utilizado (English).
 - Copie o texto, fornecido pela documentação, na caixa de texto. Ver abaixo:
 
 ```
- Tired hotel with poor service
- The Royal Hotel, London, United Kingdom
- 5/6/2018
- This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+ DevOps orchestration, agile scrum master sprint retrospective. Kubernetes cluster, dockerized applications in microservices architecture. AI algorithms machine learning deep learning neural networks. Big data analytics, real-time processing, ETL pipelines, and data lakes in cloud storage solutions.
 ```
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/b433b007-6ded-4a86-b71f-5f28f624d3b0)
 
 - Marque o box informativo
 - Clique em "Run"
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/04e4719f-40a8-42bc-bfe4-3585e129df80)
+  
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto7.png)
 
 ## Passo 9
 - Resultados
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/ce157701-918c-41df-b865-40c2294916c1)
-
 - Ele traz o sentimento geral do texto
-  
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/89785bcc-f34d-46d6-a0e8-68bf51852442)
-
 - Traz também a análise de cada uma das frases
 - Ex.: Sentence 1 (basta clicar na aba da frase para abrir ou fechar)
 
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/e84ca617-1666-46c6-8d38-1acc393c7dab)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto8.png)
 
 - Ex.: Análise da Sentence 2
   
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/6f4c0832-7914-4488-a051-badc791c9921)
+![image](https://github.com/Cristian-Nascimento/Laboratorio_3_DIO_AI900-/blob/main/assets/foto9.png)
 
 ##
-
-# Análise de inputs
-- Abaixo compartilho o resultado das frases que trouxe de exemplo em [inputs](https://github.com/giselle-ferreira/language-studio-microsoft-azure/blob/main/inputs/sentences.txt)
-
-## Sentence 1
-- Escolho o idioma, incluo a frase e inicio o teste:
-
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/36fe823d-8096-49ff-9180-f2e2ae0674d7)
-![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/93544242-8fef-4467-9cf2-9143fe6140f3)
-
-- Resultados:
-   <details>
-   <summary>Análise de Sentimento da Frase Completa</summary>
-
-   ![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/80f72209-863f-49eb-88ab-418ec338cfe9)
-
-   </details>    
-
-   <details>
-   <summary>Análise Fragmento 1</summary>
-
-   ![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/af4a21b3-4590-4ffe-97e7-1e8a9e9d2142)
-
-   </details>
-   
-   <details>
-   <summary>Análise Fragmento 2</summary>
-
-   ![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/c18d6596-5354-4af0-b521-4919d59e2d51)
-
-   </details>
-
-   <details>
-   <summary>Análise Fragmento 3</summary>
-
-   ![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/3eefad6a-d6a5-48bb-96d3-93c09a53be3e)
-
-   </details>
-
-   <details>
-   <summary>Análise Fragmento 4</summary>
-
-   ![image](https://github.com/giselle-ferreira/language-studio-microsoft-azure/assets/84051263/5300a216-aad8-413f-8e55-473dcbca0c31)
-
-   </details>
+<div align="center">
+<p>by Cristian Nascimento.</p>
+  <p>
+    <a href="https://www.linkedin.com/in/cristian-rosa-nascimento/" target="_blank" >
+      <img align="center" height="35" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Cristian Nascimento Linkedin" />
+    </a>
+    <a href="https://www.instagram.com/cristian._nascimento" target="_blank" >
+      <img align="center" height="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Cristian Nascimento Instagram" />
+    </a>
+  </p>
+</div>
